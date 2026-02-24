@@ -5297,7 +5297,7 @@ export interface DataWarehouseSavedQueryDependencies {
     downstream_count: number
 }
 
-export type DataModelingNodeType = 'table' | 'view' | 'matview'
+export type DataModelingNodeType = 'table' | 'view' | 'matview' | 'endpoint'
 
 export interface DataModelingNode {
     /** UUID */
